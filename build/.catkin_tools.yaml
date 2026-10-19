@@ -1,0 +1,6 @@
+devel_space: /home/ee545au26/mushr_ws/devel
+install: false
+install_space: /home/ee545au26/mushr_ws/install
+profile: default
+source_space: /home/ee545au26/mushr_ws/src
+workspace: /home/ee545au26/mushr_ws

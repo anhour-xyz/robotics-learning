@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="13.026"><testcase classname="rostest.runner.RosTest" name="testtest_publisher" time="13.0263" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/ee545au26/mushr_ws/src/mushr545/introduction/test/path_publisher.test] run_id[f4cbdcb4-cbd0-11f1-8ace-6fa8040ef46e] starting
+&amp;#x001B;[1mstarted roslaunch server http://ee545-l13:44135/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /path_publisher/plan_file: /home/ee545au26/m...
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+  /
+    path_publisher (introduction/path_publisher)
+
+[ROSTEST]setup[/home/ee545au26/mushr_ws/src/mushr545/introduction/test/path_publisher.test] run_id[f4cbdcb4-cbd0-11f1-8ace-6fa8040ef46e] done
+[ROSTEST]Running test [test_publisher]
+&amp;#x001B;[1mROS_MASTER_URI=http://ee545-l13:43479/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to f4cbdcb4-cbd0-11f1-8ace-6fa8040ef46e&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[path_publisher-1]: started with pid [5488]&amp;#x001B;[0m
+[ROSTEST]running test test_publisher
+&amp;#x001B;[1mprocess[test_publisher-2]: started with pid [5489]&amp;#x001B;[0m
+&amp;#x001B;[1m[test_publisher-2] process has finished cleanly
+log file: /home/ee545au26/.ros/log/f4cbdcb4-cbd0-11f1-8ace-6fa8040ef46e/test_publisher-2*.log&amp;#x001B;[0m
+[ROSTEST]test [test_publisher] finished
+[ROSTEST]test [test_publisher] results are in [/home/ee545au26/mushr_ws/build/introduction/test_results/introduction/rosunit-test_publisher.xml]
+[ROSTEST]test [test_publisher] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [test_publisher] done
+[ROSTEST]tearDown[/home/ee545au26/mushr_ws/src/mushr545/introduction/test/path_publisher.test]
+shutting down processing monitor...
+[path_publisher-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ee545au26/mushr_ws/src/mushr545/introduction/test/path_publisher.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

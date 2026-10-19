@@ -1,0 +1,161 @@
+EFF
+======================================================================
+ERROR: test_fibonacci_property (fibonacci.TestFibonacci)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/fibonacci.py", line 23, in test_fibonacci_property
+    self.assertEqual(sequence[i - 1] + sequence[i - 2], sequence[i])
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+
+======================================================================
+FAIL: test_large (fibonacci.TestFibonacci)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/fibonacci.py", line 16, in test_large
+    self.assertEqual(compute_fibonacci(45), 1134903170)
+AssertionError: None != 1134903170
+
+======================================================================
+FAIL: test_small (fibonacci.TestFibonacci)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/fibonacci.py", line 11, in test_small
+    self.assertEqual(compute_fibonacci(0), 0)
+AssertionError: None != 0
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (errors=1, failures=2)
+FE
+======================================================================
+ERROR: test_integer_array_indexing (indexing.TestIndexing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/indexing.py", line 18, in test_integer_array_indexing
+    self.assertEqual(fib_rows.shape, (7, 6), msg="Incorrect output shape")
+AttributeError: 'NoneType' object has no attribute 'shape'
+
+======================================================================
+FAIL: test_boolean_array_indexing (indexing.TestIndexing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/indexing.py", line 38, in test_boolean_array_indexing
+    np.testing.assert_equal(
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 360, in assert_equal
+    return assert_array_equal(actual, desired, err_msg, verbose)
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 917, in assert_array_equal
+    assert_array_compare(operator.__eq__, x, y, err_msg=err_msg,
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 841, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+Rows with odd first element should be incremented by one
+Mismatch: 100%
+Max absolute difference: 1
+Max relative difference: 0.25
+ x: array([[ 3,  4,  5],
+       [ 9, 10, 11],
+       [15, 16, 17]])
+ y: array([[ 4,  5,  6],
+       [10, 11, 12],
+       [16, 17, 18]])
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+FAILED (errors=1, failures=1)
+.EEEFFFE
+======================================================================
+ERROR: test_norm_numpy_is_euclidean (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 94, in test_norm_numpy_is_euclidean
+    np.testing.assert_allclose(norm_numpy(trips[:, :2]), trips[:, 2])
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 1514, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 793, in assert_array_compare
+    val = comparison(x, y)
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 1509, in compare
+    return np.core.numeric.isclose(x, y, rtol=rtol, atol=atol,
+  File "<__array_function__ internals>", line 5, in isclose
+  File "/usr/lib/python3/dist-packages/numpy/core/numeric.py", line 2269, in isclose
+    xfin = isfinite(x)
+TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+======================================================================
+ERROR: test_norm_numpy_is_norm (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 79, in test_norm_numpy_is_norm
+    r2 = norm_numpy(data) + norm_numpy(delta)
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+
+======================================================================
+ERROR: test_norm_numpy_is_norm_nd (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 103, in test_norm_numpy_is_norm_nd
+    r2 = norm_numpy(data) + norm_numpy(delta)
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
+
+======================================================================
+ERROR: test_norms_equivalent (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 120, in test_norms_equivalent
+    np.testing.assert_allclose(r1, r2)
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 1514, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 793, in assert_array_compare
+    val = comparison(x, y)
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 1509, in compare
+    return np.core.numeric.isclose(x, y, rtol=rtol, atol=atol,
+  File "<__array_function__ internals>", line 5, in isclose
+  File "/usr/lib/python3/dist-packages/numpy/core/numeric.py", line 2270, in isclose
+    yfin = isfinite(y)
+TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+======================================================================
+FAIL: test_norm_python_is_euclidean (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 50, in test_norm_python_is_euclidean
+    np.testing.assert_allclose(norm_python(trips[:, :2]), trips[:, 2])
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 1514, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/lib/python3/dist-packages/numpy/testing/_private/utils.py", line 841, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-07, atol=0
+
+Mismatch: 100%
+Max absolute difference: 997.
+Max relative difference: 1.
+ x: array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,...
+ y: array([  5,  13,  29,  17,  25,  73,  53,  89, 169,  85,  65,  97,  37,
+        41, 137, 109, 233, 425, 205, 193, 305, 125, 185, 505, 349, 505,
+       985, 509, 337, 481, 173, 149, 373, 241, 277, 565, 305, 157, 205,...
+
+======================================================================
+FAIL: test_norm_python_is_norm (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 36, in test_norm_python_is_norm
+    self.assertTrue(np.all(r1 < r2))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_norm_python_is_norm_nd (norms.TestListener)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py", line 60, in test_norm_python_is_norm_nd
+    self.assertTrue(np.all(r1 < r2))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.010s
+
+FAILED (errors=4, failures=3)

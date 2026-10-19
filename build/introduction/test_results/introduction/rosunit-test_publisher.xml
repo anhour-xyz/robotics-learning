@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="6.124"><testcase classname="__main__.TestPublisher" name="test_path_publisher" time="6.1237" /><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

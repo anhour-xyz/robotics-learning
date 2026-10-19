@@ -1,0 +1,8 @@
+prefix=/home/ee545au26/mushr_ws/install
+
+Name: ee545
+Description: Description of ee545
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

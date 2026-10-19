@@ -1,0 +1,7 @@
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  /usr/bin/cmake -E make_directory /home/ee545au26/mushr_ws/build/ee545/test_results/ee545[0m[0m
+[1m[30m  /opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o "/home/ee545au26/mushr_ws/build/ee545/test_results/ee545/roslaunch-check_launch.xml" "/home/ee545au26/mushr_ws/src/mushr545/ee545/launch"[0m[0m
+checking *.launch in directory /home/ee545au26/mushr_ws/src/mushr545/ee545/launch
+checking /home/ee545au26/mushr_ws/src/mushr545/ee545/launch/teleop.launch
+...writing test results to /home/ee545au26/mushr_ws/build/ee545/test_results/ee545/roslaunch-check_launch.xml
+passed

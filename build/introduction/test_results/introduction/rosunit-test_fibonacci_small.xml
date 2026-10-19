@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="0.405"><testcase classname="__main__.TestFibonacciSmall" name="test_fibonacci_small" time="0.4046" /><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

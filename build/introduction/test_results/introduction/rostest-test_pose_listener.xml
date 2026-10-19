@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="4.113"><testcase classname="rostest.runner.RosTest" name="testtest_pose_listener" time="4.1128" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/ee545au26/mushr_ws/src/mushr545/introduction/test/pose_listener.test] run_id[f216a576-cbd0-11f1-8ace-6fa8040ef46e] starting
+&amp;#x001B;[1mstarted roslaunch server http://ee545-l13:42411/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+
+[ROSTEST]setup[/home/ee545au26/mushr_ws/src/mushr545/introduction/test/pose_listener.test] run_id[f216a576-cbd0-11f1-8ace-6fa8040ef46e] done
+[ROSTEST]Running test [test_pose_listener]
+&amp;#x001B;[1mROS_MASTER_URI=http://ee545-l13:46629/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to f216a576-cbd0-11f1-8ace-6fa8040ef46e&amp;#x001B;[0m
+[ROSTEST]running test test_pose_listener
+&amp;#x001B;[1mprocess[test_pose_listener-1]: started with pid [5415]&amp;#x001B;[0m
+&amp;#x001B;[1m[test_pose_listener-1] process has finished cleanly
+log file: /home/ee545au26/.ros/log/f216a576-cbd0-11f1-8ace-6fa8040ef46e/test_pose_listener-1*.log&amp;#x001B;[0m
+[ROSTEST]test [test_pose_listener] finished
+[ROSTEST]test [test_pose_listener] results are in [/home/ee545au26/mushr_ws/build/introduction/test_results/introduction/rosunit-test_pose_listener.xml]
+[ROSTEST]test [test_pose_listener] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [test_pose_listener] done
+[ROSTEST]tearDown[/home/ee545au26/mushr_ws/src/mushr545/introduction/test/pose_listener.test]
+shutting down processing monitor...
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/ee545au26/mushr_ws/src/mushr545/introduction/test/pose_listener.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

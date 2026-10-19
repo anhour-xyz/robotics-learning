@@ -1,0 +1,7 @@
+[1mtest_results/introduction/nosetests-test.fibonacci.py.xml[0m: 3 tests, [31m1 errors[0m, [31m2 failures[0m, [30m0 skipped[0m[0m
+[1mtest_results/introduction/nosetests-test.indexing.py.xml[0m: 2 tests, [31m1 errors[0m, [31m1 failures[0m, [30m0 skipped[0m[0m
+[1mtest_results/introduction/nosetests-test.norms.py.xml[0m: 8 tests, [31m4 errors[0m, [31m3 failures[0m, [30m0 skipped[0m[0m
+[1mtest_results/introduction/rosunit-test_fibonacci_launch.xml[0m: 1 tests, [31m1 errors[0m, [31m0 failures[0m, [30m0 skipped[0m[0m
+[1mtest_results/introduction/rosunit-test_fibonacci_small.xml[0m: 1 tests, [31m1 errors[0m, [31m0 failures[0m, [30m0 skipped[0m[0m
+[1mtest_results/introduction/rosunit-test_pose_listener.xml[0m: 1 tests, [31m0 errors[0m, [31m1 failures[0m, [30m0 skipped[0m[0m
+[1mSummary[0m: 22 tests, [31m8 errors[0m, [31m7 failures[0m, [30m0 skipped[0m[0m

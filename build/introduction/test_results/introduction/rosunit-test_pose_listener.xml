@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="3.002"><testcase classname="__main__.TestSubscriber" name="test_path_publisher" time="3.0022" /><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+/home/ee545au26/mushr_ws/src/mushr545/introduction/test/pose_listener.py:17: SyntaxWarning: The publisher should be created with an explicit keyword argument 'queue_size'. Please see http://wiki.ros.org/rospy/Overview/Publishers%20and%20Subscribers for more information.
+  pub = rospy.Publisher("/car/car_pose", PoseStamped)
+
+]]&gt;</system-err></testsuite>

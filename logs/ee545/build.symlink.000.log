@@ -1,0 +1,6 @@
+Symlinking /home/ee545au26/mushr_ws/devel/etc/catkin/profile.d/ee545.zsh
+Symlinking /home/ee545au26/mushr_ws/devel/etc/catkin/profile.d/ee545.bash
+Symlinking /home/ee545au26/mushr_ws/devel/share/ee545/cmake/ee545Config-version.cmake
+Symlinking /home/ee545au26/mushr_ws/devel/share/ee545/cmake/ee545Config.cmake
+Symlinking /home/ee545au26/mushr_ws/devel/lib/python3/dist-packages/ee545/__init__.py
+Symlinking /home/ee545au26/mushr_ws/devel/lib/pkgconfig/ee545.pc

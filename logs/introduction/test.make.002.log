@@ -1,0 +1,100 @@
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ee545au26/mushr_ws/src/mushr545/introduction --package=introduction --results-filename test_pose_listener.xml --results-base-dir "/home/ee545au26/mushr_ws/build/introduction/test_results" /home/ee545au26/mushr_ws/src/mushr545/introduction/test/pose_listener.test[0m[0m
+... logging to /home/ee545au26/.ros/log/rostest-ee545-l13-32548.log
+[ROSUNIT] Outputting test results to /home/ee545au26/mushr_ws/build/introduction/test_results/introduction/rostest-test_pose_listener.xml
+[Testcase: testtest_pose_listener] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[introduction.rosunit-test_pose_listener/test_path_publisher][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 1
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/ee545au26/.ros/log/rostest-ee545-l13-32548.log
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ee545au26/mushr_ws/src/mushr545/introduction --package=introduction --results-filename test_path_publisher.xml --results-base-dir "/home/ee545au26/mushr_ws/build/introduction/test_results" /home/ee545au26/mushr_ws/src/mushr545/introduction/test/path_publisher.test[0m[0m
+... logging to /home/ee545au26/.ros/log/rostest-ee545-l13-32629.log
+[ROSUNIT] Outputting test results to /home/ee545au26/mushr_ws/build/introduction/test_results/introduction/rostest-test_path_publisher.xml
+[Testcase: testtest_publisher] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[introduction.rosunit-test_publisher/test_path_publisher][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 1
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/ee545au26/.ros/log/rostest-ee545-l13-32629.log
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ee545au26/mushr_ws/src/mushr545/introduction --package=introduction --results-filename test_fibonacci_launch.xml --results-base-dir "/home/ee545au26/mushr_ws/build/introduction/test_results" /home/ee545au26/mushr_ws/src/mushr545/introduction/test/fibonacci_launch.test[0m[0m
+... logging to /home/ee545au26/.ros/log/rostest-ee545-l13-32686.log
+[ROSUNIT] Outputting test results to /home/ee545au26/mushr_ws/build/introduction/test_results/introduction/rostest-test_fibonacci_launch.xml
+[Testcase: testtest_fibonacci_launch] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[introduction.rosunit-test_fibonacci_launch/test_launch][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 1
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/ee545au26/.ros/log/rostest-ee545-l13-32686.log
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  /usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/ee545au26/mushr_ws/src/mushr545/introduction --package=introduction --results-filename test_fibonacci_small.xml --results-base-dir "/home/ee545au26/mushr_ws/build/introduction/test_results" /home/ee545au26/mushr_ws/src/mushr545/introduction/test/fibonacci_small.test[0m[0m
+... logging to /home/ee545au26/.ros/log/rostest-ee545-l13-32732.log
+[ROSUNIT] Outputting test results to /home/ee545au26/mushr_ws/build/introduction/test_results/introduction/rostest-test_fibonacci_small.xml
+[Testcase: testtest_fibonacci_small] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[introduction.rosunit-test_fibonacci_small/test_fibonacci_small][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 1
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/ee545au26/.ros/log/rostest-ee545-l13-32732.log
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  /usr/bin/cmake -E make_directory /home/ee545au26/mushr_ws/build/introduction/test_results/introduction[0m[0m
+[1m[30m  /opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o "/home/ee545au26/mushr_ws/build/introduction/test_results/introduction/roslaunch-check_launch.xml" "/home/ee545au26/mushr_ws/src/mushr545/introduction/launch"[0m[0m
+checking *.launch in directory /home/ee545au26/mushr_ws/src/mushr545/introduction/launch
+checking /home/ee545au26/mushr_ws/src/mushr545/introduction/launch/fibonacci.launch
+checking /home/ee545au26/mushr_ws/src/mushr545/introduction/launch/path_publisher.launch
+...writing test results to /home/ee545au26/mushr_ws/build/introduction/test_results/introduction/roslaunch-check_launch.xml
+passed
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  "/usr/bin/cmake" -E make_directory /home/ee545au26/mushr_ws/build/introduction/test_results/introduction[0m[0m
+[1m[30m  /usr/bin/nosetests3 -P --process-timeout=60 /home/ee545au26/mushr_ws/src/mushr545/introduction/test/fibonacci.py --with-xunit --xunit-file=/home/ee545au26/mushr_ws/build/introduction/test_results/introduction/nosetests-test.fibonacci.py.xml[0m[0m
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  "/usr/bin/cmake" -E make_directory /home/ee545au26/mushr_ws/build/introduction/test_results/introduction[0m[0m
+[1m[30m  /usr/bin/nosetests3 -P --process-timeout=60 /home/ee545au26/mushr_ws/src/mushr545/introduction/test/indexing.py --with-xunit --xunit-file=/home/ee545au26/mushr_ws/build/introduction/test_results/introduction/nosetests-test.indexing.py.xml[0m[0m
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+[1m[30m-- run_tests.py: execute commands[0m[0m
+[1m[30m  "/usr/bin/cmake" -E make_directory /home/ee545au26/mushr_ws/build/introduction/test_results/introduction[0m[0m
+[1m[30m  /usr/bin/nosetests3 -P --process-timeout=60 /home/ee545au26/mushr_ws/src/mushr545/introduction/test/norms.py --with-xunit --xunit-file=/home/ee545au26/mushr_ws/build/introduction/test_results/introduction/nosetests-test.norms.py.xml[0m[0m
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.156s
+
+OK

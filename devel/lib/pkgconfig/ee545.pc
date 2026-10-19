@@ -1,0 +1,1 @@
+/home/ee545au26/mushr_ws/devel/.private/ee545/lib/pkgconfig/ee545.pc
